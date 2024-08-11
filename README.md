@@ -48,7 +48,7 @@ test('model_mario_6500.pt', num_episodes=1, epsilon=0.02)
 
 Watch a video of the agent playing Super Mario:
 
-![Mario Bros Gameplay](super_mario.mp4)
+![Mario Bros Gameplay](super_mario.gif)
 
 
 ## Results
