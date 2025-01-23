@@ -1,7 +1,3 @@
-Sure! Here's an enhanced version of your `README.md` that is more professional, engaging, and designed to attract attention to your GitHub repository. This version includes a clear structure, visual elements, badges, and additional sections to make your project stand out.
-
----
-
 # 🎮 Super Mario with Deep Q-Learning 🤖
 
 ![Super Mario AI](https://i.pinimg.com/originals/63/dd/d7/63ddd7f601b6c9961e83fc5f45bd67f5.gif)
