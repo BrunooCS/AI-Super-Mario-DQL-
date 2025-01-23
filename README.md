@@ -128,7 +128,7 @@ This project is licensed under the [MIT License](LICENSE).
 ## 📚 References
 
 - [Deep Q-Learning Explained](https://blog.damavis.com/aprendizaje-por-refuerzo-profundo-dqn/)
-- [NES-PY Documentation](https://github.com/Kautenja/nes-py)
-
+- [Super Mario](https://pypi.org/project/gym-super-mario-bros)
+- [Gym](https://www.gymlibrary.dev/index.html)
 ---
 
