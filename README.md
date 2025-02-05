@@ -85,8 +85,6 @@ Watch the AI in action:
 
 ![Mario Bros Gameplay](super_mario.gif)
 
-For a full video demonstration, check out [this link](#) *(Add actual link if available)*.
-
 ---
 
 ## 📈 Results
