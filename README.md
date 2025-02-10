@@ -2,7 +2,7 @@
 # Super Mario with Deep Q-Learning
 
 <p align="center">
-  <img src="https://i.pinimg.com/originals/63/dd/d7/63ddd7f601b6c9961e83fc5f45bd67f5.gif" alt="Super Mario AI" width="600"  style="border-radius: 20px; overflow: hidden;">
+  <img src="https://i.pinimg.com/originals/63/dd/d7/63ddd7f601b6c9961e83fc5f45bd67f5.gif" alt="Super Mario AI" width="500"  style="border-radius: 20px; overflow: hidden;">
 </p>
 
 ---
