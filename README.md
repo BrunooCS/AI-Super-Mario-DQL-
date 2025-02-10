@@ -17,11 +17,14 @@
 ## Built With
 
 <p align="center">
+    <a href="https://www.python.org/">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/c/c3/Python-logo-notext.svg" alt="Python" width="50">
+  </a>
   <a href="https://pytorch.org/">
-    <img src="https://upload.wikimedia.org/wikipedia/commons/1/10/PyTorch_logo_icon.svg" alt="PyTorch" width="40">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/1/10/PyTorch_logo_icon.svg" alt="PyTorch" width="50">
   </a>
   <a href="https://gymnasium.farama.org/">
-    <img src="https://gymnasium.farama.org/_images/gymnasium-text.png" alt="Gymnasium" width="180">
+    <img src="https://gymnasium.farama.org/_images/gymnasium-text.png" alt="Gymnasium" width="200">
   </a>
 </p>
 
@@ -42,7 +45,7 @@ Leveraging the power of PyTorch for deep learning model, Gymnasium for the envir
 
 1. **Clone the Repository:**
    ```bash
-   git clone https://github.com/yourusername/your-repo.git
+   git clone https://github.com/BrunooCS/AI-Super-Mario-DQL-.git
    ```
 2. **Open the Notebook:**
    Launch Jupyter Notebook (or your preferred environment) and open `Super_Mario_DQL.ipynb`.
