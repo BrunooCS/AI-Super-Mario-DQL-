@@ -1,132 +1,53 @@
-# 🎮 Super Mario with Deep Q-Learning 🤖
 
-![Super Mario AI](https://i.pinimg.com/originals/63/dd/d7/63ddd7f601b6c9961e83fc5f45bd67f5.gif)
+# Super Mario with Deep Q-Learning
 
-Welcome to **Super Mario with Deep Q-Learning**, a project where artificial intelligence meets classic gaming! This repository showcases how to train an AI agent to master Super Mario using Deep Q-Learning (DQL). By leveraging deep neural networks, our agent learns to navigate the iconic game environment from raw pixel data.
-
----
-
-
-## 🚀 Table of Contents
-
-- [🌟 Overview](#-overview)
-- [✨ Features](#-features)
-- [🛠 Installation](#-installation)
-- [🎬 Usage](#-usage)
-  - [🏋️‍♂️ Training](#-training)
-  - [🧪 Testing](#-testing)
-  - [🎥 Demo Video](#-demo-video)
-- [📈 Results](#-results)
-- [🏗 Architecture](#-architecture)
-- [📝 License](#-license)
-- [📚 References](#-references)
+<p align="center">
+  <img src="https://i.pinimg.com/originals/63/dd/d7/63ddd7f601b6c9961e83fc5f45bd67f5.gif" alt="Super Mario AI" width="600"  style="border-radius: 20px; overflow: hidden;">
+</p>
 
 ---
 
-##  Overview
+## Overview
 
-This project demonstrates the application of **Deep Q-Learning** to train an AI agent capable of playing Super Mario. DQL combines the principles of Q-Learning with deep neural networks, enabling the agent to learn optimal strategies for complex games by interpreting raw pixel inputs.
-
-### Key Components
-
-- **Environment Preprocessing**: Enhances the game environment with frame skipping, resizing, grayscale conversion, normalization, and frame stacking for efficient learning.
-- **Convolutional Neural Network (CNN) Model**: Processes game frames to extract meaningful features for decision-making.
-- **DQN Agent**: Learns to interact with the environment through experience replay and stabilizes learning with a target network.
+**Super Mario with Deep Q-Learning** is an interactive AI project where a neural agent learns to master the classic game of Super Mario through reinforcement learning. Designed entirely as a self-explanatory Jupyter Notebook, this project offers a hands-on experience to understand how deep learning models work in real time. Simply open the notebook and follow the in-cell instructions.
 
 ---
 
-##  Features
+## Key Features
 
-- **Real-time Gameplay**: Watch the AI play Super Mario in real-time.
-- **Customizable Training Parameters**: Adjust the number of episodes, learning rates, and other hyperparameters.
-- **Visualizations**: Track training progress and rewards with interactive Plotly graphs.
-- **Modular Codebase**: Easily extend or modify components for further research.
-
----
-
-##  Installation
-
-Ensure you have Python installed. Then, install the required packages:
-
-```bash
-pip install gym-super-mario-bros==7.4.0
-pip install gym==0.26.2
-pip install nes-py==8.2.1
-pip install tensordict
-pip install torchrl
-pip install gym[accept-rom-license]  # Adjust if needed
-```
-
-> **Note**: Some packages may require additional system dependencies. Please refer to their respective documentation for more details.
+- **Interactive Notebook:** All code, explanations, and visualizations are integrated for an immersive learning experience.
+- **Real-Time Gameplay:** Observe the agent learn and play Super Mario as the notebook unfolds.
+- **Zero Setup Hassle:** No complex installations—just clone, open the notebook, and start exploring.
+- **Modular & Clean:** A thoughtfully organized codebase that invites experimentation and further development.
 
 ---
 
-## 🎬 Usage
+## Getting Started
 
-### 🏋️‍♂️ Training
+1. **Clone the Repository:**
+   ```bash
+   git clone https://github.com/yourusername/your-repo.git
+   ```
+2. **Open the Notebook:**
+   Launch Jupyter Notebook (or your preferred environment) and open `Super_Mario_DQL.ipynb`.
+3. **Run & Explore:**
+   Execute the cells in order to see the AI learn and play in real time.
 
-Train the DQN agent by running the Jupyter notebook:
-
-```python
-history = train(agent, env, num_episodes=7000, ckpt_save_interval=500, log=True)
-```
-
-### 🧪 Testing
-
-Evaluate the trained agent with:
-
-```python
-test('model_mario_6500.pt', num_episodes=1, epsilon=0.02)
-```
-
-### 🎥 Demo Video
-
-Watch the AI in action:
-
-![Mario Bros Gameplay](super_mario.gif)
+> **Tip:** All necessary explanations are embedded within the notebook cells, ensuring a seamless and intuitive experience.
 
 ---
 
-## 📈 Results
+## Demo
 
-Monitor the training progress and performance:
+<p align="center">
+  <img src="super_mario.gif" alt="Super Mario Gameplay" width="600" style="border-radius: 20px; overflow: hidden;">
+</p>
 
-- **Average Rewards**: Visualized using Plotly to show the agent's performance over episodes.
-
-![Training Rewards](rewards.png)
-
----
-
-## 🏗 Architecture
-
-### Environment Preprocessing
-
-- **Frame Skipping**: Reduces computational load by skipping frames.
-- **Resizing & Grayscale**: Simplifies input data.
-- **Normalization**: Scales pixel values for efficient learning.
-- **Frame Stacking**: Provides temporal context to the agent.
-
-### CNN Model
-
-A deep convolutional neural network processes the preprocessed frames to extract features that inform the agent's actions.
-
-### DQN Agent
-
-Implements the core Deep Q-Learning algorithm, utilizing experience replay and a target network to stabilize and enhance learning.
-
----
-
-## 📝 License
-
-This project is licensed under the [MIT License](LICENSE).
 
 
 ---
 
-## 📚 References
+## License
 
-- [Deep Q-Learning Explained](https://blog.damavis.com/aprendizaje-por-refuerzo-profundo-dqn/)
-- [Super Mario](https://pypi.org/project/gym-super-mario-bros)
-- [Gym](https://www.gymlibrary.dev/index.html)
----
+This project is open-sourced under the [MIT License](LICENSE).
 
