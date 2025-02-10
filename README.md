@@ -11,6 +11,22 @@
 
 **Super Mario with Deep Q-Learning** is an interactive AI project where a neural agent learns to master the classic game of Super Mario through reinforcement learning. Designed entirely as a self-explanatory Jupyter Notebook, this project offers a hands-on experience to understand how deep learning models work in real time. Simply open the notebook and follow the in-cell instructions.
 
+
+---
+
+## Built With
+
+<p align="center">
+  <a href="https://pytorch.org/">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/1/10/PyTorch_logo_icon.svg" alt="PyTorch" width="40">
+  </a>
+  <a href="https://gymnasium.farama.org/">
+    <img src="https://gymnasium.farama.org/_images/gymnasium-text.png" alt="Gymnasium" width="180">
+  </a>
+</p>
+
+Leveraging the power of PyTorch for deep learning model, Gymnasium for the enviroment, this project provides a modern approach to reinforcement learning.
+
 ---
 
 ## Key Features
